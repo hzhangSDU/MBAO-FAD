@@ -55,7 +55,7 @@ The PM10 dataset used in the implementation can be downloaded in the repo. And, 
 - [Abalone](https://archive.ics.uci.edu/ml/datasets/Abalone)
 - [Wine-White](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 - [PowerPlant](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
-- [Protein](https://archive.ics.uci.edu/ml/datasets/Physicochemical+Properties+of+ Protein+Tertiary+Structure)
+- [Protein](https://archive.ics.uci.edu/ml/datasets/Physicochemical+Properties+of+Protein+Tertiary+Structure)
 
 
 ## Result
