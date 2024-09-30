@@ -1,4 +1,4 @@
-# Mini-Batch Forward Automatic Differentiation based Efficient Adaptive Optimization Algorithm(MBFAD-EAO) for TSK Fuzzy System
+# Mini-Batch Adaptive Optimization Algorithm Based on Forward Automatic Differentiation for the Design of Efficient TSK Fuzzy Systems
 ![Python 3.6](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
 ![PyTorch 1.2](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
@@ -10,7 +10,7 @@ This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following
 We will continue this line of research and update on this repo. Please star this repo if you find our work is helpful for you. And, If you have any questions about this implementation or find any bugs or errors during use, please feel free to contact me. If you have any questions about the original article,  please contact the authors of related article.
 
 
-## MBFAD-EAO Algorithm
+## MBAO-FAD Algorithm
 This paper greatly balance the **training efficient** and **computational cost**, including the **memory requirement** and **time cost**, for TSK fuzzy system, and propose a novel mini-batch adaptive optimization algorithm based on forward automatic differentiation (MBAO-FAD). The main innovations and contributions are summarized as:
 
 - The forward automatic differentiation, alternatively termed as the forward gradient, strategy for the TSK fuzzy system is firstly given. And, the detailed mathematical derivation of the forward gradient is also given for the antecedents and consequents, in respectively.
