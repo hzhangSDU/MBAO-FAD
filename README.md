@@ -69,9 +69,17 @@ The PM10 dataset used in the implementation can be downloaded in the repo. And, 
 - [PowerPlant](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
 - [Protein](https://archive.ics.uci.edu/ml/datasets/Physicochemical+Properties+of+Protein+Tertiary+Structure)
 
+## Comparative Algorithms
+
+The detailed experimental configurations for the MBAO-FAD and its comparative algorithms are listed in Table 3. The adaptive MBGD algorithms, including MGBD-Adam, MGBD-RDA, and MGBD-AdaGrad are chosen as the comparison methods. To fully verify the effectiveness and advantages, some non-adaptive MBGD algorithms, such as MGDB-SGD, MGBD-RMSProp (abbreviate as MGBD-RMSP), and MGDB-Momentum are also selected as the comparatives. All the comparative algorithms are implemented using the PyTorch framework, and they undergo forward and backward propagation with the same number of iterations. All experiments are conducted on a laptop equipped with a 13-th generation Intel i9-13900KS processor, 16GB of RAM, and an NVIDIA RTX2090 GPU.
+
+<p align="center">
+<img src=".\pic\Table3.png" height = "270" alt="" align=center />
+<br><br>
+</p>
 
 ## Result
-We are lucky that the proposed MBAO-FAD algorithm gets performance improvement on 10 real-world datasets.
+We have demonstrated that the MBAO-FAD can achieve the machine learning tasks of TSK fuzzy system without the need for backward propagation. We cautiously and optimistically believe that MBAO--FAD, not only requires less computational time expense, but also possesses computational competitiveness, especially in comparison with the current state-of-the-art algorithm, MBGD-RDA. Comparative experiments across seven methods on the commonly nine datasets indicate that the proposed MBAO--FAD achieves overall optimal performance in terms of optimization accuracy (RMSE testing loss) and efficiency (computational time cost and computational memory overhead). This is an encouraging result. 
 
 <p align="center">
 <img src="./pic/Fig4.png" height = "800" alt="" align=center />
