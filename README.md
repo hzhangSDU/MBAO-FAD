@@ -74,19 +74,19 @@ The PM10 dataset used in the implementation can be downloaded in the repo. And, 
 We are lucky that the proposed MBAO-FAD algorithm gets performance improvement on 10 real-world datasets.
 
 <p align="center">
-<img src="./pic/Fig4.png" height = "400" alt="" align=center />
+<img src="./pic/Fig4.png" height = "800" alt="" align=center />
 <br><br>
 <b>Figure 1.</b> the performance (training efficient) of the proposed MBAO-FAD algorithm.
 </p>
 
 <p align="center">
-<img src="./pic/Fig5.png" height = "400" alt="" align=center />
+<img src="./pic/Fig5.png" height = "800" alt="" align=center />
 <br><br>
 <b>Figure 2.</b> the performance (computational cost) of the proposed MBAO-FAD algorithm.
 </p>
 
 <p align="center">
-<img src=".\pic\Table4.png" height = "270" alt="" align=center />
+<img src=".\pic\Table4.png" height = "800" alt="" align=center />
 <br><br>
 </p>
 
