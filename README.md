@@ -9,6 +9,10 @@ This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following
 
 We will continue this line of research and update on this repo. Please star this repo if you find our work is helpful for you. And, If you have any questions about this implementation or find any bugs or errors during use, please feel free to contact me. If you have any questions about the original article,  please contact the authors of related article.
 
+<p align="center">
+<img src=".\pic\Paper.png" height = "800" alt="" align=center />
+<br><br>
+</p>
 
 ## MBAO-FAD Algorithm
 This paper greatly balance the **training efficient** and **computational cost**, including the **memory requirement** and **time cost**, for TSK fuzzy system, and propose a novel mini-batch adaptive optimization algorithm based on forward automatic differentiation (MBAO-FAD). The main innovations and contributions are summarized as:
