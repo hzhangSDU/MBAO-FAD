@@ -9,19 +9,25 @@ This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following
 
 Author: Hui Zhang, Wei Peng, Guangyao Fan, Bo Sun, *Member, IEEE*, Chengdong Li, *Member, IEEE*, and Dongbin Zhao, *Fellow, IEEE*
 
-We will continue this line of research and update on this repo. Please star this repo if you find our work is helpful for you. And, If you have any questions about this implementation or find any bugs or errors during use, please feel free to contact me. If you have any questions about the original article,  please contact the authors of related article.
-
 <p align="center">
 <img src=".\pic\Paper.png" height = "800" alt="" align=center />
 <br><br>
 </p>
 
+We will continue this line of research and update on this repo. Please star this repo if you find our work is helpful for you. And, If you have any questions about this implementation or find any bugs or errors during use, please feel free to contact me. If you have any questions about the original article,  please contact the authors of related article.
+
 ## MBAO-FAD Algorithm
 This paper greatly balance the **training efficient** and **computational cost**, including the **memory requirement** and **time cost**, for TSK fuzzy system, and propose a novel mini-batch adaptive optimization algorithm based on forward automatic differentiation (MBAO-FAD). The main innovations and contributions are summarized as:
 
-- The forward automatic differentiation, alternatively termed as the forward gradient, strategy for the TSK fuzzy system is firstly given. And, the detailed mathematical derivation of the forward gradient is also given for the antecedents and consequents, in respectively.
-- An efficient efficient matrix-free Jacobian-vector product algorithm is proposed for accelerating the gradient computational efficiency. Additionally, an improved nonnegative matrix factorization based mini-batch parameter update algorithm is proposed to further mitigate memory requirement and computational time cost.
-- The proposed MBAO-FAD algorithm outperforms the comparisons on 10 real-world datasets from various application domains, in terms of the RMSE, the training time and the memory overhead.
+- A novel mini--batch adaptive optimization algorithm based on forward automatic differentiation (MBAO--FAD) was proposed to optimize TSK fuzzy systems. The proposed MBAO--FAD can construct a training pipeline for TSK fuzzy systems without backward propagation, which is fundamentally different from traditional algorithms and more computationally competitive.
+- An efficient gradient estimation method based on matrix--free Jacobian--vector products was proposed. This method requires only a single forward automatic differentiation during the forward propagation of TSK fuzzy systems to achieve unbiased estimation of gradients for both antecedent and consequent parameters.
+- A mini--batch fuzzy parameter update strategy based on non-negative matrix factorization was proposed. By using generalized Kullback--Leibler divergence, the gradient estimation matrix of fuzzy parameters is decomposed into the product of two rank--1 matrices, eliminating the need to store first--order and second--order moment estimates, thereby reducing the memory requirements for training TSK fuzzy systems.
+- The proposed MBAO--FAD algorithm demonstrated superior performance compared to other algorithms in terms of optimization accuracy, training time, and memory overhead across nine real--world datasets from multiple application domains.
+
+<p align="center">
+<img src=".\pic\Table1.png" height = "800" alt="" align=center />
+<br><br>
+</p>
 
 <p align="center">
 <img src=".\pic\Algorithm.png" height = "800" alt="" align=center />
