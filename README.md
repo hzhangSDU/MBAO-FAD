@@ -10,7 +10,7 @@ This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following
 Author: [Hui Zhang](https://ieeexplore.ieee.org/author/37089332415), Wei Peng, Guangyao Fan, [Bo Sun](https://ieeexplore.ieee.org/author/37086126603), ***Member, IEEE***, [Chengdong Li](https://ieeexplore.ieee.org/author/37577297400), ***Member, IEEE***, and [Dongbin Zhao](https://ieeexplore.ieee.org/author/37277016800), ***Fellow, IEEE***
 
 <p align="center">
-<img src=".\pic\Paper.png" height = "850" alt="" align=center />
+<img src=".\pic\Papers.png" height = "850" alt="" align=center />
 <br><br>
 </p>
 
