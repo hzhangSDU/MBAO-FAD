@@ -7,7 +7,7 @@
 
 This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following paper submitted for *IEEE Transactions on Fuzzy Systems*: **Mini-Batch Adaptive Optimization Algorithm Based on Forward Automatic Differentiation for the Design of Efficient TSK Fuzzy Systems**.  
 
-Author: [Hui Zhang](https://ieeexplore.ieee.org/author/37089332415), Wei Peng, [Chengdong Li](https://ieeexplore.ieee.org/author/37577297400), ***Member, IEEE***, Guangyao Fan, [Bo Sun](https://ieeexplore.ieee.org/author/37086126603), ***Member, IEEE***, and [Qinglai Wei](https://ieeexplore.ieee.org/author/37409924100), ***Senior Member, IEEE***
+Author: [Hui Zhang](https://ieeexplore.ieee.org/author/37089332415), [Wei Peng](https://www-443.webvpn.sdjzu.edu.cn/xdxy/info/1034/1572.htm), ***Member, IEEE***, [Chengdong Li](https://www-443.webvpn.sdjzu.edu.cn/xdxy/info/1034/1571.htm), ***Member, IEEE***, Guangyao Fan, [Bo Sun](https://ieeexplore.ieee.org/author/37086126603), ***Member, IEEE***, and [Qinglai Wei](https://ia.cas.cn/rcdw/yxqnjj/202404/t20240425_7131816.html), ***Senior Member, IEEE***
 
 We will continue this line of research and update on this repo. Please star this repo if you find our work is helpful for you. And, If you have any questions about this implementation or find any bugs or errors during use, please feel free to contact me. If you have any questions about the original article,  please contact the authors of related article.
 
