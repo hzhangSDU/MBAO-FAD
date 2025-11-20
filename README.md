@@ -1,11 +1,11 @@
-# Mini-Batch Adaptive Optimization Algorithm Based on Forward Automatic Differentiation for the Design of Efficient TSK Fuzzy Systems
+# Minibatch Adaptive Optimization via Forward Automatic Differentiation for Designing Efficient TSK Fuzzy Systems
 ![Python 3.6](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
 ![PyTorch 1.2](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
 ## About
 
-This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following paper submitted for *IEEE Transactions on Fuzzy Systems*: **Mini-Batch Adaptive Optimization Algorithm Based on Forward Automatic Differentiation for the Design of Efficient TSK Fuzzy Systems**.  
+This is the origin Pytorch implementation of MBAO-FAD Algorithm in the following paper submitted for *IEEE Transactions on Fuzzy Systems*: **Minibatch Adaptive Optimization via Forward Automatic Differentiation for Designing Efficient TSK Fuzzy Systems**.  
 
 Author: [Hui Zhang](https://ieeexplore.ieee.org/author/37089332415), [Wei Peng](https://www-443.webvpn.sdjzu.edu.cn/xdxy/info/1034/1572.htm), ***Member, IEEE***, [Chengdong Li](https://www-443.webvpn.sdjzu.edu.cn/xdxy/info/1034/1571.htm), ***Member, IEEE***, Guangyao Fan, [Bo Sun](https://ieeexplore.ieee.org/author/37086126603), ***Member, IEEE***, and [Qinglai Wei](https://ia.cas.cn/rcdw/yxqnjj/202404/t20240425_7131816.html), ***Senior Member, IEEE***
 
